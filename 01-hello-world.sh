@@ -1,4 +1,4 @@
 #!/bin/bash
 echo "Hello World"
 echo "Hello shell script"
-echo "this is script1"
+echo "this is script2"
