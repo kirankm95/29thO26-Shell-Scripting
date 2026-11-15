@@ -1,0 +1,10 @@
+#!/bin/bash
+
+FRUITS=("Apple" "Banana" "Orange" "Papaya")
+
+echo "the first fruit is: ${FRUITS[0]}"
+echo "the second fruit is: ${FRUITS[1]}"
+echo "the third fruit is: ${FRUITS[2]}"
+echo "the foruth fruit is: ${FRUITS[3]}"
+echo "the all fruits is: ${FRUITS[*]}"
+echo "the number of fruits is: ${FRUITS[#]}"
