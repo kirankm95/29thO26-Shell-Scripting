@@ -35,7 +35,7 @@ fi
 
 for i in $PACKAGES
 do
-sudo yum list installed $i 
+sudo yum list installed $i &>> $LOGFILE
 if [ $? -eq 0 ]
 then
 echo "package $i already installed"
