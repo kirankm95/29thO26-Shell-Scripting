@@ -31,8 +31,8 @@ fi
 fi
     
 
-sudo yum install mysql -y &>> $TIMESTAMP
-VALIDATE $? "mysql"
+c -y &>> $TIMESTAMP
+VALIDATE $? "zip"
 
 sudo yum install git -y &>> $TIMESTAMP
 VALIDATE $? "git"
