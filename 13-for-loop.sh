@@ -35,6 +35,12 @@ fi
 
 for i in $PACKAGES
 do
+sudo yum list installed $i 
+if [ $? -eq 0 ]
+then
+echo "package $i already installed"
+else
+echo "package $i not installed proceeding with installation"
 sudo yum install $i -y &>> $TIMESTAMP
 VALIDATE $? "$i"
 done
