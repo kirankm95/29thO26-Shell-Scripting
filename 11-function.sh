@@ -1,7 +1,6 @@
 #!/bin/bash
-PACKAGE=mysql
+
 ID=$(id -u)
-DATE=$(date)
 TIMESTAMP=$(date +%F-%H-%M-%S)
 R="\e[31m"
 G="\e[32m"
