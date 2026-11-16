@@ -11,6 +11,7 @@ PACKAGES="$@"
 
 echo "$0 started executing at $TIMESTAMP" &>> $LOGFILE
 echo "user mentioned pckages to install : $PACKAGES"
+echo "number of packages: $#"
 
 VALIDATE(){
 if [ $1 -eq 0 ]
