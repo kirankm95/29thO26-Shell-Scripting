@@ -31,7 +31,7 @@ fi
 fi
     
 
-c -y &>> $TIMESTAMP
+sudo yum install nginx -y &>> $TIMESTAMP
 VALIDATE $? "nginx"
 
 sudo yum install git -y &>> $TIMESTAMP
