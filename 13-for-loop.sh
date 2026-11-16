@@ -7,7 +7,7 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 LOGFILE="/tmp/$0-$TIMESTAMP.log"
-PACKAGES="$@"
+PACKAGES="$*"
 
 echo "$0 started executing at $TIMESTAMP" &>> $LOGFILE
 echo "user mentioned pckages to install : $PACKAGES"
