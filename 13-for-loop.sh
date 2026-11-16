@@ -43,4 +43,5 @@ else
 echo "package $i not installed proceeding with installation"
 sudo yum install $i -y &>> $TIMESTAMP
 VALIDATE $? "$i"
+fi
 done
