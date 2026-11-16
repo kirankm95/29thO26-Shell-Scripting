@@ -27,7 +27,7 @@ fi
     echo -e "$R you are not root user, please try with root user, exiting $N"
     exit 1
  else
-    echo "$G you are root user, going further with installation $N"
+    echo -e "$G you are root user, going further with installation $N"
 fi
     
 
