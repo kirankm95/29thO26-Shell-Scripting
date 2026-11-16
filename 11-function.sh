@@ -32,7 +32,7 @@ fi
     
 
 c -y &>> $TIMESTAMP
-VALIDATE $? "zip"
+VALIDATE $? "nginx"
 
 sudo yum install git -y &>> $TIMESTAMP
 VALIDATE $? "git"
