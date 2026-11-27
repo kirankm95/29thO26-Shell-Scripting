@@ -4,6 +4,7 @@ NAME=""
 WISHES="Good Morning"
 
 USAGE(){
+    #echo "USGAE:: $(basename $0) -n <name> -w <wishes>"
     echo "USGAE:: $(basename $0) -n <name> -w <wishes>"
     echo "Options::"
     echo " -n, Specify the name (mandatory)"
